@@ -26,9 +26,9 @@
   <body class="body">
     <header class="header">
       <picture>
-        <source srcset="img/logo/desktop-header-logo.svg" media="(min-width: 1200px)">
-        <source srcset="img/logo/tablet-header-logo.svg" media="(min-width: 768px)">
-        <img class="header__profile-img" src="" alt="Аватар">
+        <source srcset="img/avatars/desktop-header-avatar.png" media="(min-width: 1200px)">
+        <source srcset="img/avatars/tablet-header--avatar.png" media="(min-width: 768px)">
+        <img class="header__avatar" src="img/avatars/mobile-header--avatar.png" alt="Аватар">
       </picture>
       <h1 class="header__title">RSS</h1>
       <button class="header__burger-menu"></button>
@@ -37,7 +37,21 @@
 
     </main>
     <footer class="footer">
-
+      <button class="footer__btn-home">
+        <svg  class="footer__icon-home" width="24" height="20">
+          <use>
+        </svg>
+      </button>
+      <button class="footer__btn-plus">
+        <svg  class="footer__icon-home" width="24" height="24">
+          <use>
+        </svg>
+      </button>
+      <button class="footer__btn-profile">
+        <svg  class="footer__icon-home" width="20" height="24">
+          <use >
+        </svg>
+      </button>
     </footer>
     <script src="js/script.min.js"></script>
     <script src="js/script.js"></script>
